@@ -1,17 +1,20 @@
-import React from 'react';
-import axios from "axios";
+import React from "react";
+import axios from "axios"
+import Header from "./Header/Header";
+import Main from "./Main/Main";
+import Footer from "./Footer/Footer";
+import "./App.css";
+import "./background/background.jpg";
 
-import './App.css';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       
-        <h1>Hello World</h1>
-      </header>
+      <div id="container">
+        <Header />
+        <Main />
+        <Footer />
+      </div>
     </div>
   );
 }
-
-export default App;

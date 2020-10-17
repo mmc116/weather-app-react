@@ -1,0 +1,36 @@
+button {
+  border: transparent;
+}
+
+.search {
+  text-align: right;
+}
+
+#current-location,
+#metric,
+#imperial {
+  text-align: left;
+  margin: 5px;
+  margin-left: -5px;
+  margin-top: 10px;
+  border-radius: 2px;
+  display: block;
+  font-size: 10px;
+  font-family: inherit;
+  background-color: rgba(255, 255, 255, 0.26);
+}
+
+#search-button {
+  display: inline;
+  background-color: transparent;
+  border: transparent;
+}
+
+#search-input {
+  text-align: right;
+  display: inline;
+  margin: 10px -5px;
+  border: transparent;
+  background-color: transparent;
+  max-width: 150px;
+}
