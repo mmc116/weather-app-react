@@ -8,7 +8,7 @@ export default function Footer() {
       <footer className="git">
         Coded by{" "}
         <a
-          href="https://github.com/mmc116/Weather.app-final"
+          href="https://github.com/mmc116/weather-app-react"
           target="_blank"
           rel="noopener noreferrer"
         >
