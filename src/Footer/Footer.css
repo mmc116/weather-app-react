@@ -1,12 +1,12 @@
 footer {
   text-align: center;
   font-size: 8px;
-  color: rgba(0, 0, 0, 0.26);
+  color: rgba(41, 40, 40, 0.192);
 }
 
 a {
   text-decoration: underline;
-  color: rgba(0, 0, 0, 0.26);
+  color: rgba(0, 0, 0, 0.493);
   margin: 3px;
 }
 
